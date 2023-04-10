@@ -456,7 +456,7 @@ a{
 }
 
 .contact .row form .inputBox input{
-    width: 10%;
+    width: 100%;
     padding: 2rem;
     font-size: 1.7rem;
     color: #fff;
