@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="./image/pngegg.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html" >menu</a>
+            <a href="./products.html" class="active">products</a>
+            <a href="./review.html">review</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (1).png" alt="menu">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (2).png" alt="menu">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$16.99 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (3).png" alt="menu">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$13.99 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (4).png" alt="menu">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$12.99 </div>
+                </div>
+            </div>
+            <a href="#" class="btn">check out </a>
+        </div>
+    </header>
+    <!-- -------------------------------------------HEADER SECTION -->
+  <!-- -------------------------------------------PRODUCTS SECTION -->
+  <section class="products" id="products">
+    <h1 class="heading">our <span>products</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">mini burger</span>
+                <a href="#" class="name">Bacon Burger</a>
+                <a href="#" class="name">$6.00</a>
+            </div>
+            <div class="image">
+                <img src="./image/pngwing.com (6).png" alt="">
+            </div>
+            <div class="box-bottom">
+                <label><input type="checkbox" name="bacon_burger" value="btn1"> add bacon burger to cart</label><br />
+                <p>Select the amount</p>
+                <form>
+                    <input type="radio" id="rd1" name="rdbtn" value="1">
+                    <label >1</label><br>
+                    <input type="radio" id="rd2" name="rdbtn" value="2">
+                    <label >2</label><br>
+                    <input type="radio" id="rd3" name="rdbtn" value="3">
+                    <label >3</label>
+              </form> 
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">cheese burger</span>
+                <a href="#" class="name">cheese Burger</a>
+                <a href="#" class="name">$12.00</a>
+            </div>
+            <div class="image">
+                <img src="./image/pngwing.com (4).png" alt="">
+            </div>
+            <div class="box-bottom">
+                <label><input type="checkbox" name="cheese_burger" value="btn2"> add cheese burger to cart</label><br />
+                <p>Select the amount</p>
+                <form>
+                    <input type="radio" id="rd1" name="rdbtn" value="1">
+                    <label >1</label><br>
+                    <input type="radio" id="rd2" name="rdbtn" value="2">
+                    <label >2</label><br>
+                    <input type="radio" id="rd3" name="rdbtn" value="3">
+                    <label >3</label>
+              </form> 
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Double burger</span>
+                <a href="#" class="name">Double Burger</a>
+                <a href="#" class="name">$24.00</a>
+            </div>
+            <div class="image">
+                <img src="./image/pngwing.com (5).png" alt="">
+            </div>
+            <div class="box-bottom">
+                <label><input type="checkbox" name="double_burger" value="btn3"> add double burger to cart</label><br />
+                <p>Select the amount</p>
+                <form>
+                    <input type="radio" id="rd1" name="rdbtn" value="1">
+                    <label >1</label><br>
+                    <input type="radio" id="rd2" name="rdbtn" value="2">
+                    <label >2</label><br>
+                    <input type="radio" id="rd3" name="rdbtn" value="3">
+                    <label >3</label>
+              </form> 
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- -------------------------------------------PRODUCTS SECTION -->
+
+<!-- -------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+        <div class="search">
+
+            <a href="contact.html" class="btn btn-primary">Submit</a>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blog">blog</a>
+        </div>
+    </section>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>
